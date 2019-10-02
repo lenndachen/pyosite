@@ -1,0 +1,30 @@
+.header-component {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 240px 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "top-row top-row"
+    "nav-bar nav-bar";
+}
+
+.second-row {
+  grid-area: nav-bar;
+  position: relative;
+}
+
+.top-row {
+  grid-area: top-row;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-row-image-wrapper {
+    width: 300px;
+}
+
+.top-row-image-wrapper img {
+    width: 100%;
+    height: auto;
+}
