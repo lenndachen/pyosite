@@ -98,10 +98,10 @@
   transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);
     transform:translateZ(0);opacity:1}}
 
- .bigphoto-container {
-  position: relative;
-  text-align: center;
-  color: white;
+ .bigphoto-container img {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
 }
 
 .tracking-in-contract-bck {
@@ -115,8 +115,10 @@
     font-family: 'Raleway', sans-serif;
   }
 
-.groupphoto{
-  width: 100px;
+.groupphoto img{
+ position:relative;
+ width:150px;
+ 
 }
 
   

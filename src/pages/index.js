@@ -1,4 +1,3 @@
-
 import React from "react"
 import Logopyo from "../images/PYO Logo.png"
 import "./index.css"
@@ -34,7 +33,9 @@ const IndexPage = () => (
           <li className="word">News & Events</li>
           <li className="word">Join</li>
           <li className="word">Contact</li>
-          <li className="word donatebtn"><strong>Donate</strong></li>
+          <li className="word donatebtn">
+            <strong>Donate</strong>
+          </li>
         </ul>
       </div>
     </div>
@@ -42,12 +43,9 @@ const IndexPage = () => (
       <div className="bigphoto-container">
         <img alt="groupphoto" src={groupphoto} />
         <div className="tracking-in-contract-bck">
-          <strong>
-          Creating Opportunities
-          </strong>
+          <strong>Creating Opportunities</strong>
         </div>
       </div>
-
     </div>
   </div>
 )
