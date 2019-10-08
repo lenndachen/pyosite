@@ -1,7 +1,10 @@
 import React from "react"
 import Logopyo from "../images/PYO Logo.png"
 import "./index.css"
-import logoimages from "../images/Logos.png"
+import facebook from "../images/Facebookbtn.png"
+import twitter from "../images/twitterbtn.png"
+import instagram from "../images/instabtn.png"
+import youtube from "../images/Youtubebtn.png"
 import groupphoto from "../images/highcompress-fallhomecoming.jpg"
 
 const IndexPage = () => (
@@ -10,6 +13,7 @@ const IndexPage = () => (
       <div className="top-row">
         <div className="top-row-image-wrapper">
           <img className="Pyologo" alt="pyologo" src={Logopyo} />
+          <a href="https://www.facebook.com/pyopportunity"/>
         </div>
         <div className="top-row-second-column-wrapper">
           <div className="number-wrapper">
@@ -20,7 +24,18 @@ const IndexPage = () => (
             <input className="searchbox" type="text" placeholder="Search..." />
           </div>
           <div className="second-row-image-wrapper">
-            <img alt="logos" src={logoimages} />
+            <div className="logo-img">
+              <img className="logo facebook" alt="fblogo" src={facebook} />
+            </div>
+            <div className="logo-img">
+              <img className="logo twitter" alt="twitterlogo" src={twitter} />
+            </div>
+            <div className="logo-img">
+              <img className="logo instagram" alt="instalogo" src={instagram} />
+            </div>
+            <div className="logo-img">
+              <img className="logo youtube" alt="ytlogo" src={youtube} />
+            </div>
           </div>
         </div>
       </div>
