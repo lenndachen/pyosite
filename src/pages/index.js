@@ -12,6 +12,7 @@ import interns from "../images/interns.jpg"
 import cooking from "../images/cooking.jpg"
 import annualreport from "../images/annualreport.png"
 import LCCU from "../images/LCCU.jpg"
+import aikenfamily from "../images/Youtube-Thumbnail-PYO-Story.png"
 
 const IndexPage = () => (
   <div className="wholeform">
@@ -93,8 +94,8 @@ const IndexPage = () => (
           </span>
         </p>
       </div>
-      <div>
-        <div>
+      <div className="put-together-column">
+        <div className="third-container-3pics">
           <div className="fourth-container">
             <div className="section2-in-third-container">
               <div>
@@ -183,7 +184,17 @@ const IndexPage = () => (
             />
             <button className="updates-btn button">Get Updates</button>
           </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=s5srJ3zG5q8"/>
+            <img alt="aiken family photo" src={aikenfamily}></img>
+          </div>
         </div>
+      </div>
+      <div className="before-footer">
+
+      </div>
+      <div className="footer">
+
       </div>
     </div>
   </div>

@@ -233,3 +233,8 @@ img.logo {
 .homebtn{
   text-decoration: none;
 }
+
+.put-together-column{
+  display: grid;
+  grid-template-columns: auto auto;
+}
