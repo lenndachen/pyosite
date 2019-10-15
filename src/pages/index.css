@@ -1,19 +1,17 @@
 .header-container {
   display: grid;
   width: 100%;
-  grid-template-rows: 240px 40px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "top-row top-row"
     "nav-bar nav-bar";
-  max-width: 80%;
-  align-content: center;
+  max-width: 1250px;
+  margin: 0 auto;
 }
 
 .second-row {
   grid-area: nav-bar;
   position: relative;
-  top: -49px;
 }
 
 .top-row {
@@ -27,16 +25,15 @@
   list-style-type: none;
   display: flex;
   font-family: 'Open Sans', sans-serif;
-  position: absolute;
-  top: -72px;
-  left: 330px;
+  justify-content: flex-end;
 }
 
 
 .word {
-  padding: 10px;
   color: #999;
-  
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 21px;
 }
 
 .donatebtn{
@@ -50,7 +47,6 @@
 .top-row-second-column-wrapper{
   margin-top: 21px;
   position: relative;
-  right: -82px;
 }
 
 .top-row-image-wrapper{
@@ -60,10 +56,8 @@
 
 
 .top-row-image-wrapper img {
-    width: 100%;
-    height: 145px;
-    margin-top: -3px;
-    margin-left: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .number-wrapper{
@@ -111,7 +105,6 @@
 
  .bigphoto-container img {
   position: absolute;
-  top: 179px;
   background-size: cover;
   width: 100%;
 }
@@ -173,10 +166,18 @@ img.logo {
 }
 @font-face { font-family: 'Oswald'; font-style: normal; font-weight: 300; src: url(http://fonts.gstatic.com/s/oswald/v26/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2'); }
 
-.third-container h1{
-  font-family: "Oswald";
-  margin-top: 40%;
+/* .title-wrapper-third-container h1 {
+  font-family: "oswald";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.7em;
+    line-height: 1.2;
+} */
 
+.third-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
 
 .third-title-wrapper{
@@ -212,4 +213,28 @@ img.logo {
   padding: 10px;
   background-color: green;
   padding-bottom: 50px;
+}
+
+.section1-in-third-container{
+  margin-top: 81%;
+}
+
+.section5-of-third-container{
+  display: grid;
+  grid-template-rows: 4fr;
+  margin: 20px;
+}
+
+.button{
+  padding: 10px;
+  width: 200px;
+}
+
+.homebtn{
+  text-decoration: none;
+}
+
+.put-together-column{
+  display: grid;
+  grid-template-columns: auto auto;
 }
