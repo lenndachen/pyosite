@@ -53,4 +53,15 @@
 
 .readmore-component{
     color: #319151;
+    position: absolute;
+    left: 1041px;
+    font-style: italic;
+    font-family: open sans;
+    font-weight: 400;
+}
+
+.before-footer{
+    background: #ADD8E6;
+    width:2000px;
+
 }
