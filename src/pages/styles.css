@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.aiken{
+    height: 360px;
+    width: 480;
+    margin: 30px;
+}
+
+.left-photo-last-photo-in-third-container{
+    margin: 30px;
+    float: left;
+}
+
+.section4-of-third-container{
+    position: relative;
+}
+
+.paragraph-lccu{
+    position: absolute;
+    top: 475px;
+    left: 194px;
+    color: white;
+    text-decoration: underline;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.section3-of-third-container{
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 57px;
+
+}
+
+.annual-report-paragraph{
+    position: absolute;
+    top: 318px;
+    left: 11px;
+    color: white;
+    text-decoration: underline;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.touch{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.readmore-component{
+    color: #319151;
+}
