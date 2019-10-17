@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 .header-container {
   display: grid;
   width: 100%;
@@ -84,10 +86,20 @@
 }
 
 .searchbox{
+  position: absolute;
+  width: 194px;
+  top: 24px;
+  padding: 9px;
+}
+
+.input-arrow-wrapper{
   position: relative;
-  width: 200px;
-  top: -14px;
-  padding: 7px;
+}
+
+.arrow-image{
+  position: absolute;
+  top: 36px;
+  left: 184px;
 
 }
 
@@ -164,19 +176,15 @@ img.logo {
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0px;
 }
-@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 300; src: url(http://fonts.gstatic.com/s/oswald/v26/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2'); }
 
-/* .title-wrapper-third-container h1 {
-  font-family: "oswald";
+h1 {
+  font-family: "Oswald";
     font-weight: 700;
     font-style: normal;
-    font-size: 2.7em;
     line-height: 1.2;
-} */
+} 
 
 .third-container{
-  margin-left: auto;
-  margin-right: auto;
   width: 960px;
 }
 
@@ -189,12 +197,15 @@ img.logo {
   width: 800px;
   font-size: 17px;
   color: #333;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
   
 }
 
 .second-title-caption-of-third-container {
   position: relative;
-  top: 168px;
+  top: 3px;
   font-family: "oswald";
 }
 
@@ -205,6 +216,8 @@ img.logo {
   padding: 20px;
   padding-bottom: 50px;
   border-radius: 10px;
+  padding: 30px;
+  padding-bottom: 50px;
 }
 
 
@@ -225,11 +238,6 @@ img.logo {
   margin: 20px;
 }
 
-.button{
-  padding: 10px;
-  width: 200px;
-}
-
 .homebtn{
   text-decoration: none;
 }
@@ -237,4 +245,73 @@ img.logo {
 .put-together-column{
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.keep-in-touch{
+  padding: 20px;
+  border: 1px gray solid;
+  height: 423px;
+  width: 376px;
+
+}
+
+.input-btn{
+  display: block;
+  border: 1px solid #CCC;
+  color: rgba(0,0,0,0.75);
+  font-size: 14px;
+  font-weight: normal;
+  font-family: inherit;
+  padding: 8px;
+  height: 37px;
+  margin-bottom: 15px;
+}
+
+.updates-btn{
+  background:rgb(15, 82, 186);
+  color: white;
+  border: rgb(15, 82, 186);
+}
+
+.updates-btn{
+  height: 100%;
+}
+
+.title-wrapper-third-container{
+  font-family: open sans;
+  font-weight: bold 700;
+  font-size: 30px;
+}
+
+.speaker{
+  float: left;
+  width: 114px;
+  padding: 7px;
+}
+
+.speaker-section{
+  padding: 10px;
+  border-bottom:  1px solid #EDEDED;
+}
+
+.interns{
+  float: left;
+  width: 114px;
+  padding: 7px;
+}
+
+.interns-section{
+  padding: 10px;
+  border-bottom:  1px solid #EDEDED;
+}
+
+.cooking{
+  float: left;
+  width: 114px;
+  padding: 7px;
+}
+
+.cooking-section{
+  padding: 10px;
+  border-bottom:  1px solid #EDEDED;
 }
